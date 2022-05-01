@@ -40,7 +40,7 @@ $update = json_decode(file_get_contents("php://input"));
   $callbackuserid = $update->callback_query->message->reply_to_message->from->id;
   $callbackmessageid = $update->callback_query->message->message_id;
 
-if ($text == '/rasm') {
+if ($message == '/rasm') {
     bot('sendPhoto', [
       'chat_id' => $chat_id,
       'photo'=> "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-Alamy-BXWK5E_vvmkuf.jpg"
