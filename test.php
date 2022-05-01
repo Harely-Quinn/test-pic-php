@@ -1,4 +1,11 @@
 <?php,
+
+if (empty(getenv('BOT_TOKEN'))){
+$token = "API_Token";
+} else {
+$token = getenv('BOT_TOKEN');
+}
+
 ob_start();
 $BOT_KEY = '5222789174:AAFZH_qkAmQeZWJhRzBShYefV3-NppsXoDQ';/*TOKEN BOT*/
 define('API_KEY',$BOT_KEY,0);
