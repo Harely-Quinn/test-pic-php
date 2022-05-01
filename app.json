@@ -1,7 +1,7 @@
 {
     "name": "harely quinn",
     "description": "For students of the College of Technical Engineering",
-    "repository": "https://github.com/Harely-Quinn/Heroku-PHP-Bot-Base",
+    "repository": "https://github.com/Harely-Quinn/test-pic-php",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token here.",
